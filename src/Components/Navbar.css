@@ -1,0 +1,17 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 2% 5% 0% 5%;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.navigation i {
+    font-size: 20px;
+}
+
+.navigation h1 {
+    font-size: 20px;
+}

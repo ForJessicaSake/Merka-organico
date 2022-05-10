@@ -1,0 +1,48 @@
+.sales-wrapper button {
+    width: 130px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #008e37;
+    color: white;
+    font-size: 15px;
+    box-shadow: 0.05em 0em 0.5em 0.05em;
+}
+
+.sales-subtitle {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+.groceries {
+    box-shadow: 0.05em 0em 0.5em 0.05em;
+    padding: 15px;
+}
+
+.sales-items {
+    cursor: pointer;
+    margin-top: 4%;
+    --gap: 22px;
+    --num-cols: 3;
+    --row-height: 500px;
+    padding: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+    justify-items: center;
+}
+
+.sales-items img {
+    width: 300px;
+}
+
+.details {
+    text-align: center;
+    line-height: 2;
+}
+
+.details p {
+    font-size: 18px;
+}
