@@ -36,7 +36,7 @@
 
 @media only screen and (max-width: 480px) and (min-width: 320px) {
     .customer-wrapper img {
-        width: 250px;
+        width: 230px;
     }
     .customer-wrapper p {
         width: 50%;
