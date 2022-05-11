@@ -15,13 +15,6 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    transition: 2s;
-    transition-delay: 0.001s;
-    transform: scale(1.1);
-    scroll-behavior: smooth;
-}
-
 @media only screen and (max-width: 1300px) and (min-width: 320px) {
     html,
     body {

@@ -2,7 +2,7 @@ import React from "react";
 
 
 const Groceries= ({ item }) => {
-    const { title, price, img } = item;
+    const {  title, price, img } = item;
     return (
         <main className="groceries-wrapper">
             <section className="groceries">

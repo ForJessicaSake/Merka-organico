@@ -12,4 +12,5 @@ import App from './App';
 
 // const example = <h1> Hello World! current date: {getCurrentDate()} </h1>
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+
+ReactDOM.render( < App / > , document.getElementById('root'));

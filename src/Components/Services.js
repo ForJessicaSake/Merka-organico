@@ -1,10 +1,17 @@
 import React from "react";
 import "./Services.css";
 import servicesimg from '../Images/service.png';
+import { motion } from 'framer-motion'
+
 
 function Services() {
   return (
-    <section className="services-wrapper" id="Services">
+    <motion.section className="services-wrapper" id="Services"
+          initial={{ x: '-100vw' }}
+          animate={{ x: 0 }}
+          transition={{ delay: 1, duration: 5, type: 'spring', stiffness: 200 }}
+          >
+            
         <main className="services-text">
               <article className="services-subtitle">
                   <h1>Why Choose Us?</h1>
@@ -23,14 +30,14 @@ function Services() {
                   <div className="box">
                       <h3><i class="fa-solid fa-square-check"></i></h3>
                       <h2>Secure Payments</h2>
-                      <p>All our payment platforms are secure, safe and easy to use.</p>
+                      <p>All our payment platforms are secure, quick and easy to use.</p>
                   </div>
               </article>
         </main>
         <aside>
             <img src={servicesimg} alt='women'></img>
         </aside>
-    </section>
+    </motion.section>
   );
 }
 export default Services;

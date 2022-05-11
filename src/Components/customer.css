@@ -9,8 +9,10 @@
     padding: 3em 0em;
 }
 
-.customer-wrapper h1 {
+.subtitle {
     text-align: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .carousel {
@@ -21,55 +23,61 @@
 }
 
 .customer-wrapper p {
-    width: 20%;
-    border-radius: 120px;
+    width: 19%;
+    border-radius: 150px;
     text-align: center;
     padding: 60px;
     background-color: #008e37;
     margin-right: 10%;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 2%;
 }
 
 @media only screen and (max-width: 480px) and (min-width: 320px) {
     .customer-wrapper img {
-        width: 180px;
+        width: 230px;
     }
     .customer-wrapper p {
-        width: 35%;
-        border-radius: 150px;
+        width: 50%;
+        border-radius: 50px;
         text-align: center;
-        padding: 20px;
+        padding: 15px;
         background-color: #008e37;
         color: white;
         font-size: 12px;
         margin-top: 2%;
     }
+    .subtitle {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
     .customer-wrapper img {
-        width: 300px;
+        width: 330px;
     }
     .customer-wrapper p {
-        width: 35%;
-        border-radius: 120px;
+        width: 70%;
+        border-radius: 150px;
         text-align: center;
-        padding: 28px;
+        padding: 25px;
         background-color: #008e37;
         color: white;
         font-size: 20px;
         margin-top: 2%;
     }
+    .subtitle {
+        font-size: 40px;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
     .customer-wrapper img {
-        width: 500px;
+        width: 600px;
     }
     .customer-wrapper p {
-        width: 30%;
+        width: 55%;
         border-radius: 120px;
         text-align: center;
         padding: 55px;
@@ -78,5 +86,8 @@
         color: white;
         font-size: 25px;
         margin-top: 2%;
+    }
+    .subtitle {
+        font-size: 55px;
     }
 }

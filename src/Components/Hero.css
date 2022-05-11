@@ -5,11 +5,12 @@
     align-items: center;
     border-radius: 30px;
     background-color: #008e37;
+    padding: 10px;
 }
 
 .hero-text {
     width: 50%;
-    color: white;
+    color: rgb(245, 244, 244);
 }
 
 .hero-text h1 {
@@ -26,9 +27,9 @@
 }
 
 .hero-wrapper button {
-    width: 180px;
-    padding: 10px;
-    border-radius: 15px;
+    width: 160px;
+    padding: 8px;
+    border-radius: 13px;
     border: 0px;
     background-color: #dcf743;
     color: #008e37;
@@ -37,8 +38,12 @@
     font-weight: bold;
 }
 
+.hero-wrapper a {
+    color: #008e37;
+}
+
 .hero-image img {
-    width: 480px;
+    width: 510px;
 }
 
 

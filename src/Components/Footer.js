@@ -10,12 +10,12 @@ function Footer() {
             <div className="footer-text">
                 <div>
                     <h1>Main Menu</h1>
-                        <p><a href="#Home">Merka</a></p>
-                        <p><a href="#Cart">Cart</a></p>
-                        <p><a href="#Sale">Items</a></p>
-                        <p><a href="#Services">Services</a></p>
-                        <p><a href="#Footer">Contact</a></p>
-                  
+                    <p><a href="#Home">Merka</a></p>
+                    <p><a href="#Cart">Cart</a></p>
+                    <p><a href="#Sale">Items</a></p>
+                    <p><a href="#Services">Services</a></p>
+                    <p><a href="#Footer">Contact</a></p>
+
                 </div>
                 <div>
                     <h1>Quick Links</h1>
@@ -39,11 +39,11 @@ function Footer() {
                         <a href="https://www.linkedin.com/in/jessica-joseph-79629a218/ "><i
                             class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    
+
                 </div>
             </div>
-            
-          
+
+
         </section>
 
     )

@@ -17,4 +17,4 @@ function Sales() {
         </section>
     );
 }
-export default Sales;
+export default Sales
