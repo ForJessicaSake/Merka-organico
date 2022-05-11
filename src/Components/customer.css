@@ -36,7 +36,7 @@
 
 @media only screen and (max-width: 480px) and (min-width: 320px) {
     .customer-wrapper img {
-        width: 230px;
+        width: 240px;
     }
     .customer-wrapper p {
         width: 50%;
@@ -49,7 +49,7 @@
         margin-top: 2%;
     }
     .subtitle {
-        font-size: 20px;
+        font-size: 23px;
     }
 }
 
