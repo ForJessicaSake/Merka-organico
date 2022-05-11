@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
     return (
 
-        <section className="footer-wrapper" id="footer">
+        <section className="footer-wrapper" id="Footer">
             <h1><span>Me</span>rka</h1>
 
             <div className="footer-text">
@@ -13,6 +13,10 @@ function Footer() {
                     <ul>
                         <li><a href="#Home">Merka</a></li>
                         <li><a href="#Cart">Cart</a></li>
+                        <li><a href="#Sale">Items</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Footer">Contact</a></li>
+
                     </ul>
                   
                 </div>
@@ -23,9 +27,9 @@ function Footer() {
                 </div>
                 <div>
                     <h1>Search</h1>
-                    <p>Agencies</p>
-                    <p>Agent</p>
-                    <p>Lawyers</p>
+                    <p>Inventory</p>
+                    <p>Food ingredients</p>
+                    <p>Fruits</p>
                 </div>
                 <div>
                     <h1>Contact Us</h1>

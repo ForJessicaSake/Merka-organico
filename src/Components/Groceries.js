@@ -11,7 +11,7 @@ const Groceries= ({ item }) => {
                 </div>
                 <article className="details">
                     <p>{title}</p>
-                    <p>{price}</p>
+                    <p className="price">{price}</p>
                     <button>Add to Cart</button>
                 </article>
             </section>

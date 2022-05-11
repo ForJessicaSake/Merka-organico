@@ -4,7 +4,7 @@ import servicesimg from '../Images/service.png';
 
 function Services() {
   return (
-    <section className="services-wrapper">
+    <section className="services-wrapper" id="Services">
         <main className="services-text">
               <article className="services-subtitle">
                   <h1>Why Choose Us?</h1>

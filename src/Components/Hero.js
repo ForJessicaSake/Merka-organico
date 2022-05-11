@@ -6,7 +6,8 @@ function Hero() {
   return (
     <main className="hero-wrapper">
       <div className="hero-text">
-        <h1>We Bring The Grocery Store To Your Doorstep</h1>
+        <h1>We
+           Bring The Grocery Store To Your Doorstep</h1>
         <p>Merka is a trusted grocery shop that allows you buy all the necessary food inventory with one click. </p>
         <button>Order Now</button>
       </div>

@@ -5,11 +5,29 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-body {
+body,
+html {
     background-color: #fafffa;
-    font-family:
+    scroll-behavior: smooth;
 }
 
 button {
     cursor: pointer;
+}
+
+button:hover {
+    transition: 2s;
+    transition-delay: 0.001s;
+    transform: scale(1.1);
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 320px) {
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
 }

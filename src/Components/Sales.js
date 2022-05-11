@@ -6,8 +6,8 @@ import './Sales.css';
 
 function Sales() {
     return (
-        <section className="sales-wrapper">
-            <article className='sales-subtitle'> Our Top Selling Items This Month</article>
+        <section className="sales-wrapper" id='Sale'>
+            <article className='sales-subtitle'>Inventory</article>
 
             <main className="sales-items">
                 {List.map((item) => (
