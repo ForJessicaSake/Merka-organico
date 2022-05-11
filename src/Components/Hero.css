@@ -80,6 +80,7 @@
     }
     .hero-image img {
         width: 300px;
+        margin-bottom: 3%;
     }
 }
 
@@ -114,6 +115,7 @@
     }
     .hero-image img {
         width: 400px;
+        margin-bottom: 3%;
     }
 }
 
@@ -148,5 +150,6 @@
     }
     .hero-image img {
         width: 550px;
+        margin-bottom: 3%;
     }
 }
