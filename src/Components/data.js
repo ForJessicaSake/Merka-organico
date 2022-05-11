@@ -1,20 +1,20 @@
 const List = [{
         id: 1,
         title: "Strawberry",
-        price: "$10",
+        price: "$25",
         img: require("../Images/strawberry.png"),
     },
     {
         id: 2,
         title: "Banana",
-        price: "$10",
+        price: "$30",
         img: require("../Images/banana.png"),
     },
 
     {
         id: 3,
         title: "Coconut",
-        price: "$10",
+        price: "$40",
         img: require("../Images/coconut.png"),
     },
     {
@@ -26,19 +26,19 @@ const List = [{
     {
         id: 5,
         title: "Lime",
-        price: "$10",
+        price: "$5",
         img: require("../Images/lime.png"),
     },
     {
         id: 6,
         title: "Pineapple",
-        price: "$10",
+        price: "$60",
         img: require("../Images/pineapple.png"),
     },
     {
         id: 7,
         title: "Carrot",
-        price: "$10",
+        price: "$15",
         img: require("../Images/carrot.png"),
     },
     {
@@ -50,19 +50,19 @@ const List = [{
     {
         id: 9,
         title: "Avocado",
-        price: "$10",
+        price: "$25",
         img: require("../Images/avocado.png"),
     },
     {
         id: 10,
         title: "Tomato",
-        price: "$10",
+        price: "$15",
         img: require("../Images/tomato.png"),
     },
     {
         id: 11,
         title: "Egg",
-        price: "$10",
+        price: "$5",
         img: require("../Images/egg.png"),
     },
     {
@@ -74,19 +74,19 @@ const List = [{
     {
         id: 10,
         title: "Apple",
-        price: "$10",
+        price: "$70",
         img: require("../Images/apple.png"),
     },
     {
         id: 11,
         title: "Grape",
-        price: "$10",
+        price: "$100",
         img: require("../Images/grape.png"),
     },
     {
         id: 12,
         title: "Watermelon",
-        price: "$10",
+        price: "$20",
         img: require("../Images/watermelon.png"),
     },
 ];
