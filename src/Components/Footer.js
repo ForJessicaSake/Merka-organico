@@ -10,14 +10,11 @@ function Footer() {
             <div className="footer-text">
                 <div>
                     <h1>Main Menu</h1>
-                    <ul>
-                        <li><a href="#Home">Merka</a></li>
-                        <li><a href="#Cart">Cart</a></li>
-                        <li><a href="#Sale">Items</a></li>
-                        <li><a href="#Services">Services</a></li>
-                        <li><a href="#Footer">Contact</a></li>
-
-                    </ul>
+                        <p><a href="#Home">Merka</a></p>
+                        <p><a href="#Cart">Cart</a></p>
+                        <p><a href="#Sale">Items</a></p>
+                        <p><a href="#Services">Services</a></p>
+                        <p><a href="#Footer">Contact</a></p>
                   
                 </div>
                 <div>

@@ -49,7 +49,7 @@ const List = [{
     },
     {
         id: 9,
-        title: "Pepper",
+        title: "Avocado",
         price: "$10",
         img: require("../Images/avocado.png"),
     },
@@ -73,19 +73,19 @@ const List = [{
     },
     {
         id: 10,
-        title: "Strawberry",
+        title: "Apple",
         price: "$10",
         img: require("../Images/apple.png"),
     },
     {
         id: 11,
-        title: "Banana",
+        title: "Grape",
         price: "$10",
         img: require("../Images/grape.png"),
     },
     {
         id: 12,
-        title: "Coconut",
+        title: "Watermelon",
         price: "$10",
         img: require("../Images/watermelon.png"),
     },
