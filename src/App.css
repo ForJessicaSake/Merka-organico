@@ -15,6 +15,10 @@ button {
     cursor: pointer;
 }
 
+button a {
+    display: block;
+}
+
 .sales-wrapper button:hover {
     transition: 2s;
     transition-delay: 0.001s;

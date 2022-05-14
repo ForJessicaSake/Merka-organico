@@ -19,6 +19,7 @@
 .groceries {
     box-shadow: 0.05em 0em 0.5em 0.05em;
     padding: 15px;
+    border-radius: 20px;
 }
 
 .sales-items {
@@ -36,7 +37,7 @@
 }
 
 .sales-items img {
-    width: 300px;
+    width: 270px;
 }
 
 .details {
