@@ -1,6 +1,6 @@
 .sales-wrapper button {
-    width: 135px;
-    padding: 8px;
+    width: 140px;
+    padding: 5px;
     border-radius: 20px;
     border: 0px;
     background-color: #008e37;
@@ -25,9 +25,9 @@
 .sales-items {
     cursor: pointer;
     margin-top: 1%;
-    --gap: 22px;
+    --gap: 35px;
     --num-cols: 3;
-    --row-height: 510px;
+    --row-height: 500px;
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
     grid-auto-rows: var(--row-height);
@@ -42,7 +42,7 @@
 
 .details {
     text-align: center;
-    line-height: 2;
+    line-height: 2.5;
 }
 
 .details p {
