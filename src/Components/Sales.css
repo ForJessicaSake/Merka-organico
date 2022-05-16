@@ -25,7 +25,7 @@
 .sales-items {
     cursor: pointer;
     margin-top: 1%;
-    --gap: 35px;
+    --gap: 38px;
     --num-cols: 3;
     --row-height: 500px;
     display: grid;
@@ -93,6 +93,9 @@
     .details p {
         font-size: 20px;
     }
+    .groceries {
+        margin-top: 5%;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
@@ -109,13 +112,14 @@
     .groceries {
         box-shadow: 0.05em 0em 0.5em 0.05em;
         padding: 25px;
+        margin-top: 5%;
     }
     .sales-items {
         cursor: pointer;
         margin-top: 4%;
-        --gap: 22px;
+        --gap: 28px;
         --num-cols: 1;
-        --row-height: 850px;
+        --row-height: 760px;
         padding: var(--gap);
         display: grid;
         grid-template-columns: repeat(var(--num-cols), 1fr);
@@ -172,5 +176,8 @@
     }
     .details p {
         font-size: 48px;
+    }
+    .groceries {
+        margin-top: 5%;
     }
 }
