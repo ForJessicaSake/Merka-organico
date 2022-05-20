@@ -18,7 +18,7 @@ useEffect(()=>{
         setLists(data);
         setisLoading(false);
     });
-}, 1000);
+}, 1);
 }, []);
     return (
         <section className="sales-wrapper" id='Sale'>
