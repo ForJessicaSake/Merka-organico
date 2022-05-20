@@ -3,13 +3,12 @@
           justify-content: space-around;
           flex-direction: row;
           align-items: center;
-          padding: 3em 2em;
+          padding: 4em 2em;
       }
       
       .service-img {
           display: flex;
           justify-content: center;
-          margin-bottom: 5%;
       }
       
       .service-img img {
@@ -35,6 +34,7 @@
           display: flex;
           justify-content: space-between;
           padding: 20px;
+          margin-top: 2%;
       }
       
       .box h2 {
@@ -67,7 +67,7 @@
               align-items: center;
           }
           .service-img img {
-              width: 420px;
+              width: 430px;
               height: 270px;
           }
           .services-text {
@@ -90,6 +90,9 @@
           .box p {
               font-size: 16.5px;
               line-height: 1.6;
+          }
+          .box {
+              margin-top: 8%;
           }
       }
       
@@ -125,6 +128,9 @@
               font-size: 29.5px;
               line-height: 1.6;
           }
+          .box {
+              margin-top: 10%;
+          }
       }
       
       @media only screen and (max-width: 1024px) and (min-width: 769px) {
@@ -158,5 +164,8 @@
           .box p {
               font-size: 35.5px;
               line-height: 1.6;
+          }
+          .box {
+              margin-top: 10%;
           }
       }

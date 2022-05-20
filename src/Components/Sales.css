@@ -1,4 +1,4 @@
-.sales-wrapper button {
+.salesbtn {
     width: 140px;
     padding: 5px;
     border-radius: 20px;
@@ -51,6 +51,18 @@
 
 .price {
     font-weight: bold;
+}
+
+.loading {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #008e37;
+    color: white;
+    font-size: 17px;
+    box-shadow: 0.05em 0em 0.5em 0.05em;
+    margin: 2% 0% 0% 5%;
 }
 
 
