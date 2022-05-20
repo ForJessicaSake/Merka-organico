@@ -1,6 +1,6 @@
 import React from "react";
 import "./Services.css";
-import servicesimg from '../Images/service.png';
+import servicesimg from '../images/service.png';
 import { motion } from 'framer-motion'
 
 
@@ -16,6 +16,9 @@ function Services() {
               <article className="services-subtitle">
                   <h1>Why Choose Us?</h1>
               </article>
+              <aside class='service-img'>
+                  <img src={servicesimg} alt='women'></img>
+              </aside>
               <article className="services-title-text">
                   <div className="box">
                       <h3><i class="fa-solid fa-square-check"></i></h3>
@@ -34,9 +37,7 @@ function Services() {
                   </div>
               </article>
         </main>
-        <aside>
-            <img src={servicesimg} alt='women'></img>
-        </aside>
+      
     </motion.section>
   );
 }

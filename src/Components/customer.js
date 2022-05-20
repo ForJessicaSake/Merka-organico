@@ -1,7 +1,7 @@
 import React from 'react';
 import './customer.css';
-import customer2 from '../Images/happycustomer2.png'
-import customer3 from '../Images/happycustomer3.png';
+import customer2 from '../images/happycustomer2.png'
+import customer3 from '../images/happycustomer3.png';
 
 
 

@@ -5,20 +5,25 @@ import './Sales.css';
 
 
 function Sales() {
+    const [isLoading, setisLoading] = useState(true);
     const [Lists, setLists] = useState(null);
  
 useEffect(()=>{
+    setTimeout(()=>{
     fetch("http://localhost:5000/List")
     .then(res=>{
         return res.json();
     })
     .then(data=>{
         setLists(data);
+        setisLoading(false);
     });
+}, 2000);
 }, []);
     return (
         <section className="sales-wrapper" id='Sale'>
             <article className='sales-subtitle'>Inventory</article>
+            {isLoading && <button className='timeout-info'>Loading.....</button>}
 
             <main className="sales-items">
                 { Lists && Lists.map((List) => (
@@ -28,7 +33,7 @@ useEffect(()=>{
                             <article className='details'>
                                 <p>{List.title}</p>
                                 <p className='price'>{List.price}</p>
-                                <button>Add to Cart</button>
+                                <button className='salesbtn'>Add to Cart</button>
                             </article>
                         </div>
                     </section>

@@ -3,26 +3,38 @@
           justify-content: space-around;
           flex-direction: row;
           align-items: center;
-          padding: 4em 2em;
+          padding: 3em 2em;
       }
       
-      .services-wrapper img {
-          width: 500px;
-          padding-left: 5%;
+      .service-img {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 5%;
+      }
+      
+      .service-img img {
+          width: 530px;
       }
       
       .services-text {
-          width: 80%;
+          width: 100%;
       }
       
       .services-subtitle {
-          margin-bottom: 9%;
+          margin-bottom: 5%;
           text-align: center;
+          font-weight: bold;
+      }
+      
+      .services-subtitle h1 {
+          font-weight: bold;
+          font-size: 38px;
       }
       
       .services-title-text {
           display: flex;
-          justify-content: space-around;
+          justify-content: space-between;
+          padding: 20px;
       }
       
       .box h2 {
