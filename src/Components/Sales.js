@@ -14,7 +14,6 @@ function Sales() {
             })
             .then(data => {
                 setLists(data);
-                setisLoading(false);
             });
     }, []);
     return (
