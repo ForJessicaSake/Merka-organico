@@ -66,8 +66,8 @@
               flex-direction: column-reverse;
               align-items: center;
           }
-          .services-wrapper img {
-              width: 270px;
+          .service-img img {
+              width: 300px;
           }
           .services-text {
               width: 100%;
@@ -98,8 +98,8 @@
               flex-direction: column-reverse;
               align-items: center;
           }
-          .services-wrapper img {
-              width: 650px;
+          .service-img img {
+              width: 600px;
           }
           .services-text {
               width: 100%;
@@ -132,7 +132,7 @@
               flex-direction: column-reverse;
               align-items: center;
           }
-          .services-wrapper img {
+          .service-img img {
               width: 750px;
           }
           .services-text {
