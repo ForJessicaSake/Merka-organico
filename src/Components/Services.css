@@ -67,7 +67,8 @@
               align-items: center;
           }
           .service-img img {
-              width: 400px;
+              width: 380px;
+              height: 180px;
           }
           .services-text {
               width: 100%;
