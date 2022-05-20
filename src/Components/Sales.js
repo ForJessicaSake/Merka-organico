@@ -1,28 +1,32 @@
 import React, { useEffect } from 'react';
-import { useState } from 'react';
+import { useState} from 'react';
 // import Groceries from './Groceries';
 import './Sales.css';
 
 
 function Sales() {
+    const [isLoading, setisLoading] = useState(true);
     const [Lists, setLists] = useState(null);
-
-    useEffect(() => {
-        fetch("http://localhost:5000/List")
-            .then(res => {
-                return res.json();
-            })
-            .then(data => {
-                setLists(data);
-            });
-    }, []);
+ 
+useEffect(()=>{
+    setTimeout(()=>{
+    fetch("http://localhost:5000/List")
+    .then(res=>{
+        return res.json();
+    })
+    .then(data=>{
+        setLists(data);
+        setisLoading(false);
+    });
+}, 1500);
+}, []);
     return (
         <section className="sales-wrapper" id='Sale'>
             <article className='sales-subtitle'>Inventory</article>
-            {/* {isLoading && <button className='timeout-info'>Loading.....</button>} */}
+            {isLoading && <button className='timeout-info'>Loading.....</button>}
 
             <main className="sales-items">
-                {Lists && Lists.map((List) => (
+                { Lists && Lists.map((List) => (
                     <section className='groceries' key={List.id}>
                         <div className="image-box">
                             <img src={List.img} alt='case-images'></img>
