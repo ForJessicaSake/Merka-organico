@@ -5,12 +5,13 @@ import './Sales.css';
 
 
 function Sales() {
-    const [isLoading, setisLoading] = useState(true);
     const [Lists, setLists] = useState(null);
+    const [isLoading, setisLoading] = useState(true);
+
  
 useEffect(()=>{
-    setTimeout(()=>{
-    fetch("http://localhost:5000/List")
+    setTimeout(()=> {
+    fetch('http://localhost:5000/List')
     .then(res=>{
         return res.json();
     })
