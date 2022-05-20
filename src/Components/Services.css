@@ -13,7 +13,7 @@
       }
       
       .service-img img {
-          width: 530px;
+          width: 500px;
       }
       
       .services-text {
@@ -28,7 +28,7 @@
       
       .services-subtitle h1 {
           font-weight: bold;
-          font-size: 38px;
+          font-size: 35px;
       }
       
       .services-title-text {
@@ -67,7 +67,7 @@
               align-items: center;
           }
           .service-img img {
-              width: 250px;
+              width: 19rem;
           }
           .services-text {
               width: 100%;

@@ -8,7 +8,7 @@ function Sales() {
     const [Lists, setLists] = useState(null);
  
 useEffect(()=>{
-    fetch("http://localhost:5000/List")
+    fetch('http://localhost:4000/List')
     .then(res=>{
         return res.json();
     })
