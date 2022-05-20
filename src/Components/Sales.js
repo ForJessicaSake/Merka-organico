@@ -9,7 +9,6 @@ function Sales() {
     const [Lists, setLists] = useState(null);
  
 useEffect(()=>{
-    setTimeout(()=>{
     fetch("http://localhost:5000/List")
     .then(res=>{
         return res.json();
@@ -18,12 +17,11 @@ useEffect(()=>{
         setLists(data);
         setisLoading(false);
     });
-}, 1);
 }, []);
     return (
         <section className="sales-wrapper" id='Sale'>
             <article className='sales-subtitle'>Inventory</article>
-            {isLoading && <button className='timeout-info'>Loading.....</button>}
+            {/* {isLoading && <button className='timeout-info'>Loading.....</button>} */}
 
             <main className="sales-items">
                 { Lists && Lists.map((List) => (
