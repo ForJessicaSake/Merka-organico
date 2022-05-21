@@ -3,6 +3,7 @@ import './Sales.css';
 
 
 function Sales() {
+   
     const [Lists, setLists] = useState([
         {
             id: 1,
@@ -97,12 +98,17 @@ function Sales() {
         }
     ]);
 
+    const handleClick = () => {
+        setLists('Cart is in progress');
+    }
+
 
 
 
     return (
         <section className="sales-wrapper" id='Sale'>
             <article className='sales-subtitle'>Inventory</article>
+
 
             <main className="sales-items">
                 {Lists.map((List) => (
@@ -112,7 +118,7 @@ function Sales() {
                             <article className='details'>
                                 <p>{List.title}</p>
                                 <p className='price'>{List.price}</p>
-                                <button className='salesbtn'>Add to Cart</button>
+                                <button className='salesbtn' onClick={handleClick}>Add to Cart</button>
                             </article>
                         </div>
                     </section>
