@@ -105,7 +105,7 @@ function Sales() {
             <article className='sales-subtitle'>Inventory</article>
 
             <main className="sales-items">
-                { Lists.map((List) => (
+                {Lists.map((List) => (
                     <section className='groceries' key={List.id}>
                         <div className="image-box">
                             <img src={List.img} alt='case-images'></img>
