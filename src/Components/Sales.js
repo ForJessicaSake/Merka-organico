@@ -99,7 +99,7 @@ function Sales() {
     ]);
 
     const handleClick = () => {
-        setLists('Cart is in progress');
+        setLists(Lists);
     }
 
 
