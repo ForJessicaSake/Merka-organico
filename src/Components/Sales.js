@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { useState } from 'react';
 import './Sales.css';
 
@@ -7,7 +6,7 @@ function Sales() {
     const [Lists, setLists] = useState([
         {
             id: 1,
-            title: "Strawberry ",
+            title: "Strawberry",
             price: "$25",
             img: "../Images/strawberry.png"
         },
@@ -99,18 +98,8 @@ function Sales() {
     ]);
 
 
-    useEffect(() => {
-        console.log('useEffect is active')
-        // setTimeout(() => {
-        //     fetch('http://localhost:4000/List')
-        //         .then(res => {
-        //             return res.json();
-        //         })
-        //         .then(data => {
-        //             setLists(data);
-        //         });
-        // }, 5000);
-    }, []);
+
+
     return (
         <section className="sales-wrapper" id='Sale'>
             <article className='sales-subtitle'>Inventory</article>
