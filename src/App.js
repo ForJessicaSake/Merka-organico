@@ -1,23 +1,26 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Home from './Components/Home';
 import Navbar from './Components/Navbar';
-import Hero from './Components/Hero';
-import Sales from './Components/Sales';
-import Services from './Components/Services';
-import Footer from './Components/Footer';
-import Customer from './Components/customer';
+import Cart from './Components/Cart';
 
-function App(){
-        return (
+function App() {
+    return (
+        <Router>
             <div className='App'>
                 <Navbar />
-                <Hero />
-                <Sales/>
-                <Services/>
-                <Customer/>
-                <Footer />
-            </div>     
-        );
-    }
+                <Switch>
+                    <Route exact path='/'>
+                        <Home/>
+                    </Route>
+                        <Route exact path='/Cart'>
+                            <Cart />
+                        </Route>
+                </Switch>
+            </div>
+        </Router>
+    );
+}
 
 export default App;

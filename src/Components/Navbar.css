@@ -15,3 +15,7 @@
 .navigation h1 {
     font-size: 20px;
 }
+
+.navigation a {
+    color: black;
+}
