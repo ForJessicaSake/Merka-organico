@@ -6,7 +6,7 @@ function Navbar() {
         return (
             <nav className='navigation'>
                 <Link to='/'><h1 className='Navbar-logo' id='Home'> <span>Me</span>rka</h1></Link>  
-                <Link to="/Cart"><i class="fa-solid fa-cart-shopping"></i></Link>
+                <Link to="/Cart/:id"><i class="fa-solid fa-cart-shopping"></i></Link>
             </nav>
 
         )
