@@ -7,7 +7,7 @@ function Cart({ Lists }) {
   const { id } = useParams()
   return (
     <div className="cart-details">
-      <h1>The cart page is still a work in progress... - {id}</h1>
+      <h1>Work in progress... - {id}</h1>
       {Lists.map((List) => (
         List && { id } && <article key={List.id} className="cart">
           <img src={List.img} alt='case-images'></img>
