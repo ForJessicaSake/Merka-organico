@@ -5,11 +5,11 @@ import Services from './Services';
 import Footer from './Footer';
 import Customer from './customer';
 
-function Home() {
+function Home({Lists}) {
     return (
             <div className='Home'>
                     <Hero />
-                    <Sales/>
+                    <Sales Lists={Lists}/>
                     <Services/>
                     <Customer/>
                     <Footer/>
